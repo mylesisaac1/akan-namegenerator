@@ -1,10 +1,10 @@
 document.getElementById('akanForm').addEventListener('submit', function(e) {
     e.preventDefault();
     
-    // Clear previous result
+    
     document.getElementById('result').innerHTML = '';
     
-    // Get input values
+
     const day = parseInt(document.getElementById('day').value);
     const month = parseInt(document.getElementById('month').value);
     const year = parseInt(document.getElementById('year').value);
@@ -26,22 +26,20 @@ document.getElementById('akanForm').addEventListener('submit', function(e) {
         return;
     }
     
-    // Calculate day of week (0-6 where 0=Sunday)
+    
     const date = new Date(year, month - 1, day);
     const dayOfWeek = date.getDay();
     
-    // Get Akan name
+    
     const akanName = getAkanName(dayOfWeek, gender);
     const dayName = getDayName(dayOfWeek);
     
-    // Display result
+    
     document.getElementById('result').innerHTML = `
         <p>You were born on a <strong>${dayName}</strong></p>
         <p>Your Akan name is: <strong class="highlight">${akanName}</strong></p>
     `;
 });
-
-// Helper functions
 function showError(message) {
     const resultDiv = document.getElementById('result');
     resultDiv.innerHTML = `<p class="error">${message}</p>`;
