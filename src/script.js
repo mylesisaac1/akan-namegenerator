@@ -10,7 +10,7 @@ document.getElementById('akanForm').addEventListener('submit', function(e) {
     const year = parseInt(document.getElementById('year').value);
     const gender = document.getElementById('gender').value;
     
-    // Validate inputs
+   
     if (isNaN(day) || isNaN(month) || isNaN(year)) {
         showError("Please enter valid numbers for date fields");
         return;
