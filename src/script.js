@@ -17,7 +17,7 @@ document.getElementById('akanForm').addEventListener('submit', function(e) {
     }
     
     if (!validateDate(day, month, year)) {
-        showError("Please enter a valid date (check day/month combination)");
+        showError("Please enter a valid date ");
         return;
     }
     
