@@ -20,5 +20,5 @@ Distributed under the MIT License. See `LICENSE` file for details.
 
 ## 📬 Contact  
 Reach out to me:  
-- **Phone**: +254 708 726050   *(Formatted for international calls)* 
+- **Phone**: +254 708 726050   
 - **Email**: [mylesisaac2@gmail.com](mailto:mylesisaac2@gmail.com)  
