@@ -4,7 +4,7 @@ document.getElementById('akanForm').addEventListener('submit', function(e) {
     // Clear previous result
     document.getElementById('result').innerHTML = '';
     
-    // Get input values
+    
     const day = parseInt(document.getElementById('day').value);
     const month = parseInt(document.getElementById('month').value);
     const year = parseInt(document.getElementById('year').value);
