@@ -87,6 +87,6 @@ function calculateDayOfWeek(day, month, year) {
     const term3 = Math.floor(26 * (MM + 1) / 10);
     let dayIndex = (term1 + term2 + term3 + DD) % 7;
     
-    // Ensure positive result (0-6 where 0=Sunday)
+    
     return dayIndex < 0 ? dayIndex + 7 : dayIndex;
 }
