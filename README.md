@@ -6,7 +6,7 @@
 ## ✨ Features
 - Calculates day of the week from birth date
 - Generates authentic Ghanaian Akan names
-- Responsive mobile-friendly design
+- Responsive mobile-friendly 
 
 ## 🛠️ Built With
 - **Frontend**: HTML, CSS, JavaScript 
